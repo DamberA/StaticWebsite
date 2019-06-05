@@ -5,10 +5,11 @@ For simplitiy sakes I am using including header and footer in all html files as 
 
 I could have header.html and include it like this
 
+```javascript
 $(function(){
   $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
-});
+```
 
 but If you run it as a file, It won't load it because of cross origin issues.
 
